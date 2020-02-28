@@ -1,0 +1,20 @@
+{{textbox-input
+    label="First Name"
+    type="text"
+    caption="Enter your first name"
+    value=model.firstName
+}}
+{{textbox-input
+    label="Last Name"
+    type="text"
+    caption="Enter your last name"
+    value=model.lastName
+}}
+{{textbox-input
+    label="Age"
+    type="number"
+    caption="Enter your age"
+    value=model.age
+}}
+
+<button class="btn green-btn" {{action "submit" model}}>Create User</button>

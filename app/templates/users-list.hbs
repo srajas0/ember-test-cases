@@ -1,0 +1,18 @@
+<div class="container user-list">
+    <header class="header">
+        <h1>Users List</h1>
+    </header>
+    <div class="main">
+        <ul>
+            {{#each model as |user|}}
+                <li>
+                    <p>- {{user.firstName}} {{user.lastName}}</p>
+                    <button class="btn fail-btn" {{action "delete" user}}>Delete</button>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="footer">
+        <button class="btn green-btn" {{action "goToNext"}}>Create User</button>
+    </div>
+</div>

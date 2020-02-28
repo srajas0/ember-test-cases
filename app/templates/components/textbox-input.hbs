@@ -1,0 +1,11 @@
+<div class="input-row">
+  <label class="lbl">{{label}}: </label>
+  <div class="fields">
+    {{input type=type value=value placeholder=caption}}
+  </div>
+  {{#if showError}}
+    <div class="field-error">
+      {{v-get model errorProp "message"}}
+    </div>
+  {{/if}}
+</div>

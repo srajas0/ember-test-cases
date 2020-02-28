@@ -1,0 +1,26 @@
+.user-list {
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 100px;
+        list-style-type: disc;
+    
+        li {
+            display: flex;
+            font-size: 20px;
+            color: #333;
+            margin: 10px;
+            align-items: center;
+
+            .btn {
+                height: 30px;
+                min-width: 60px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .footer {
+        justify-content: flex-end;
+    }
+}

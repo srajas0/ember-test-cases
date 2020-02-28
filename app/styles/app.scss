@@ -1,0 +1,12 @@
+// import base scss
+@import 'base/variable';
+@import 'base/reset';
+
+// import common scss
+@import 'common/common';
+
+
+// import page scss
+@import 'pages/user-list';
+@import 'pages/create-user';
+@import 'pages/calculator';

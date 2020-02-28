@@ -1,0 +1,36 @@
+<form name="calculator">
+   <table>
+        <tbody>
+            <tr>
+                <td colspan="4" class="display-td">
+                    <div class="display preview">{{inputNumbers}}</div>
+                    <div class="display result">{{result}}</div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" {{action "numberPressing" "1"}}></td>
+                <td><input type="button" value="2" {{action "numberPressing" "2"}}></td>
+                <td><input type="button" value="3" {{action "numberPressing" "3"}}></td>
+                <td><input type="button" value="+" class="operator" {{action "numberPressing" "+" "addition"}}></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" {{action "numberPressing" "4"}}></td>
+                <td><input type="button" value="5" {{action "numberPressing" "5"}}></td>
+                <td><input type="button" value="6" {{action "numberPressing" "6"}}></td>
+                <td><input type="button" value="-" class="operator" {{action "numberPressing" "-" "subtraction"}}></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" {{action "numberPressing" "7"}}></td>
+                <td><input type="button" value="8" {{action "numberPressing" "8"}}></td>
+                <td><input type="button" value="9" {{action "numberPressing" "9"}}></td>
+                <td><input type="button" value="*" class="operator" {{action "numberPressing" "*" "multiplication"}}></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="c" {{action "clear"}}></td>
+                <td><input type="button" value="0" {{action "numberPressing" "0"}}></td>
+                <td><input type="button" value="=" {{action "calculate" "="}}></td>
+                <td><input type="button" value="/" class="operator" {{action "numberPressing" "/" "division"}}></td>
+            </tr>
+        </tbody>
+   </table>
+</form>
