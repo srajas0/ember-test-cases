@@ -45,7 +45,7 @@
     "ember-source": "~3.8.0",
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
-    "glob": "^4.5.3",
+    "glob": "^8.0.3",
     "loader.js": "^4.7.0",
     "morgan": "^1.9.1",
     "qunit-dom": "^0.8.0",
